@@ -1,0 +1,112 @@
+nav {
+
+  display: flex;
+  background-color: black;
+  width: 100vw;
+  height: 70px;
+  justify-content: center;
+  line-height: 70px;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  animation: hossain 5s infinite;
+}
+
+
+  
+
+
+nav button{
+  background-color: white;
+  padding: 6px 15px;
+  border-radius: 10px;
+  border: 2px solid rgb(8, 250, 250);
+  transition: 1s ease;
+}
+textarea{
+  transition: 1s ease;
+  border: 2px solid aqua;
+  height: 54vh;
+  width: 38vw;
+  border-radius: 12px;
+}
+
+#hoga{
+  transition: 1s ease;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  
+  
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+nav ul li{
+  list-style: none;
+  /* color: black; */
+  padding: 0 20px;
+  font-size: 16px;
+}
+.container{
+  display: flex;
+ align-items: center;
+ flex-direction: column;
+ margin-left: 10rem;
+ /* margin-top: 50px; */
+}
+.container input{
+  height: 50vh;
+    width: 95vw;
+}
+.container button{
+  margin: 0 5px;
+  margin-top: 5px;
+  background-color: aqua;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+.more{
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.more p{
+  padding: 0;
+}
+.previewText{
+  height: 90vh;
+  width: 90vw;
+  border: 2px solid black;
+}
+.info{
+  padding: 50px 0;
+  /* margin-left: 1rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease;
+  
+}
+.preview{
+  margin: 0 100px;
+}
+.previewcontainer{
+  height: 54vh;
+  width: 36vw;
+  border: 2px solid rgb(5, 166, 246);
+  border-radius: 10px;
+}
+
